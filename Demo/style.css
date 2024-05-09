@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* only color changes the color of the text within that container but background color changes the container's color*/
+  .c1{
+    background-color:black;
+  }
+  .c2{
+    background-image: url('pink.jpg');
+    background-size : cover;
+  }
+  .c3{
+    font-size:70px;
+    text-align:center; 
+    color:violet;
+  }
+  .c4{
+    font-size:20px;
+    color:white;
+    margin:5px;
+  }
+  .c5{
+    background-image:url("dark.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("back.jpg");
+  
+    height: 710px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    margin:100px 500px;
+    width: 500px;
+    /* max-width: 800px; */
+    padding: 16px;
+    background-color: black;
+  }
+  
+  /* Full-width input fields */
+  label{
+    color : white;
+    font-size:20px;
+  }
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+  }
+    
+  /* Set a style for the submit button */
+  .btn {
+
+    background-color: cyan;
+    font-size : 20px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 3;
+  }
